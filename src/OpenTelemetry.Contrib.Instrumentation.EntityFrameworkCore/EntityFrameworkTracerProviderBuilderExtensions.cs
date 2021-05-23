@@ -1,4 +1,4 @@
-﻿// <copyright file="TracerProviderBuilderExtensions.cs" company="OpenTelemetry Authors">
+﻿// <copyright file="EntityFrameworkTracerProviderBuilderExtensions.cs" company="OpenTelemetry Authors">
 // Copyright The OpenTelemetry Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,7 +23,7 @@ namespace OpenTelemetry.Trace
     /// <summary>
     /// Extension methods to simplify registering of dependency instrumentation.
     /// </summary>
-    public static class TracerProviderBuilderExtensions
+    public static class EntityFrameworkTracerProviderBuilderExtensions
     {
         /// <summary>
         /// Enables Microsoft.EntityFrameworkCore instrumentation.
